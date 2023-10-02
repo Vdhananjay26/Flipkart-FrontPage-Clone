@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Front-Page</title>
+    <script src="https://kit.fontawesome.com/f811341908.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ----------------------------------------- header ----------------------------------------- -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="search">
+            <input type="text" placeholder="      Search for Products,Brands and More">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="head-icon">
+            <a href="#"><i class="fa-solid fa-shop"></i><span> Become a Seller</span></a>
+            <a href="#" onclick="toggleMenu()"><i class="fa-regular fa-user"></i><span> Sign In</span></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i><span> Cart</span></a>
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </div>
+
+        <!-- ----------------------------------------- Dropdown ----------------------------------------- -->
+        <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+                <div class="user-info">
+                    <p>New Customer?</p>
+                    <h3>Sign Up</h3>
+                </div>
+                <hr>
+                <a href="#" class="sub-menu-link">
+                    <span><i class="fa-regular fa-user"></i></span>
+                    <p>My Profile</p>
+                </a>
+                <a href="#" class="sub-menu-link">
+                    <span><i class="fa-solid fa-box"></i></span>
+                    <p>Orders</p>
+                </a>
+                <a href="#" class="sub-menu-link">
+                    <span><i class="fa-regular fa-heart"></i></span>
+                    <p>Wishlist</p>
+                </a>
+                <a href="#" class="sub-menu-link">
+                    <span><i class="fa-solid fa-gift"></i></span>
+                    <p>Rewards</p>
+                </a>
+                <a href="#" class="sub-menu-link">
+                    <span><i class="fa-brands fa-cc-mastercard"></i></span>
+                    <p>Gift Cards</p>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ----------------------------------------- top-items ----------------------------------------- -->
+
+    <div class="top-items">
+        <div class="items">
+            <img src="images/Grocery.webp" alt="">
+            <h4>Grocery</h4>
+        </div>
+        <div class="items">
+            <img src="images/mobiles.webp" alt="">
+            <h4>Mobiles</h4>
+        </div>
+        <div class="items">
+            <img src="images/fashion.webp" alt="">
+            <h4>Fashion</h4>
+        </div>
+        <div class="items">
+            <img src="images/electronics.webp" alt="">
+            <h4>Electronics</h4>
+        </div>
+        <div class="items">
+            <img src="images/home.webp" alt="">
+            <h4>Home & Furniture</h4>
+        </div>
+        <div class="items">
+            <img src="images/appliance.webp" alt="">
+            <h4>Appliances</h4>
+        </div>
+        <div class="items">
+            <img src="images/travel.webp" alt="">
+            <h4>Travel</h4>
+        </div>
+        <div class="items">
+            <img src="images/toy.webp" alt="">
+            <h4>Beauty, Toy & More</h4>
+        </div>
+        <div class="items">
+            <img src="images/bike.webp" alt="">
+            <h4>Two Wheelers</h4>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------- Slider ----------------------------------------- -->
+    <div class="slider-container">
+        <div class="slider">
+          <div class="slide active" >
+            <img src="images/top1.jpg" alt="">
+          </div>
+          <div class="slide" >
+            <img src="images/top2.jpg" alt="">
+          </div>
+          <div class="slide" >
+            <img src="images/top3.jpg" alt="">
+          </div>
+          <div class="slide" >
+            <img src="images/top4.jpg" alt="">
+          </div>
+          <div class="slide" >
+            <img src="images/top5.jpg" alt="">
+          </div>
+          <div class="slide" >
+            <img src="images/top6.jpg" alt="">
+          </div>
+          <div class="slide" >
+            <img src="images/top7.jpg" alt="">
+          </div>
+        </div>
+        <div class="slider-controls">
+          <div class="prev-slide"><i class="fa-solid fa-less-than"></i></div>
+          <div class="next-slide"><i class="fa-solid fa-greater-than"></i></div>
+        </div>
+      </div>
+
+      <!-- ----------------------------------------- First Section ----------------------------------- -->
+       <div class="main-box">
+        <h2>Best of Electronics</h2>
+        <div class="product">
+            <div class="productlist">
+                <img src="images/camera.png" alt="">
+                <p>Best of Cameras</p>
+                <p>From 10000Rs.</p>
+            </div>
+            <div class="productlist">
+                <img src="images/pendrive.jpeg" alt="">
+                <p>Pen Drives & SD Cards</p>
+                <p>From 289Rs.</p>
+            </div>
+            <div class="productlist">
+                <img src="images/card.jpeg" alt="">
+                <p>Top Selling SD Cards</p>
+                <p>From 429Rs.</p>
+            </div>
+            <div class="productlist">
+                <img src="images/powerbank.jpeg" alt="">
+                <p>Premium PowerBank</p>
+                <p>From 500Rs.</p>
+            </div>
+            <div class="productlist">
+                <img src="images/keyboard.jpeg" alt="">
+                <p>Wireless Mouse & Keyboard</p>
+                <p>From 1000Rs.</p>
+            </div>
+            <div class="productlist">
+                <img src="images/projector.jpeg" alt="">
+                <p>Best of Projectors</p>
+                <p>From 10000Rs.</p>
+            </div>
+           </div>
+       </div>
+
+       <!-- ----------------------------------------- Second Section ----------------------------------- -->
+
+       <div class="main-box">
+        <h2>Beauty, Food, Toy & More</h2>
+        <div class="product">
+            <div class="productlist">
+                <img src="images/batman.jpeg" alt="">
+                <p>Tricycles & Rideons</p>
+                <p>Up to 70% Off</p>
+            </div>
+            <div class="productlist">
+                <img src="images/helmet.jpeg" alt="">
+                <p>Rider Helmet</p>
+                <p>Up to 40% Off</p>
+            </div>
+            <div class="productlist">
+                <img src="images/cycle.jpeg" alt="">
+                <p>Geared Cycle</p>
+                <p>Up to 30% Off</p>
+            </div>
+            <div class="productlist">
+                <img src="images/car-remote.jpeg" alt="">
+                <p>Remote Control Toys</p>
+                <p>Up to 80% Off</p>
+            </div>
+            <div class="productlist">
+                <img src="images/almonds.jpeg" alt="">
+                <p>Dry Fruits</p>
+                <p>Up to 75% Off</p>
+            </div>
+            <div class="productlist">
+                <img src="images/cashew.jpeg" alt="">
+                <p>Dry Fruits</p>
+                <p>Up to 75% Off</p>
+            </div>
+           </div>
+       </div>
+
+       <!-- ----------------------------------- for Big Image Section ----------------------------------- -->
+
+       <div class="div-box">
+         <div class="first">
+            <div class="first-section-items">
+                <img src="images/jew1.jpeg" alt="">
+                <h3>Accessories</h3>
+                <p>Min. 5% Off</p>
+            </div>
+            <div class="first-section-items">
+                <img src="images/jew2.jpeg" alt="">
+                <h3>Bangles</h3>
+                <p>Min. 5% Off</p>
+            </div>
+            <div class="first-section-items">
+                <img src="images/jew3.jpeg" alt="">
+                <h3>Accessories</h3>
+                <p>Min. 5% Off</p>
+            </div>
+            <div class="first-section-items">
+                <img src="images/jew4.jpeg" alt="">
+                <h3>Necklace</h3>
+                <p>Min. 5% Off</p>
+            </div>
+         </div>
+         <div class="second">
+            <img src="images/big-image-section.webp" alt="">
+         </div>
+       </div>
+
+       <!-- ----------------------------------- third section ----------------------------------- -->
+
+       <div class="main-box">
+        <h2>Sport, HealthCare & More</h2>
+        <div class="product">
+            <div class="productlist">
+                <img src="images/yoga.jpeg" alt="">
+                <p>Yoga Mat</p>
+                <p>From 159Rs.</p>
+            </div>
+            <div class="productlist">
+                <img src="images/book.jpeg" alt="">
+                <p>Academic Books</p>
+                <p>From 289Rs.</p>
+            </div>
+            <div class="productlist">
+                <img src="images/car-wash.jpeg" alt="">
+                <p>Car Pressure Washer</p>
+                <p>Up to 65% Off</p>
+            </div>
+            <div class="productlist">
+                <img src="images/notebook.jpeg" alt="">
+                <p>Learning & Educational</p>
+                <p>Up to 80% Off</p>
+            </div>
+            <div class="productlist">
+                <img src="images/tea.jpeg" alt="">
+                <p>Tea Powder</p>
+                <p>Up to 75% Off</p>
+            </div>
+            <div class="productlist">
+                <img src="images/puzzle.jpeg" alt="">
+                <p>Puzzle & Cubes</p>
+                <p>From 79Rs.</p>
+            </div>
+           </div>
+       </div>
+
+       <!-- ----------------------------------- Fourth Section ----------------------------------- -->
+
+       <div class="main-box">
+        <h2>Fashion Top Deals</h2>
+        <div class="product">
+            <div class="productlist">
+                <img src="images/t-shirt.jpeg" alt="">
+                <p>Sport T-shirt For Men</p>
+                <p>Up to 40% Off</p>
+            </div>
+            <div class="productlist">
+                <img src="images/lower.jpeg" alt="">
+                <p>Sport Lower for Men</p>
+                <p>From 199Rs.</p>
+            </div>
+            <div class="productlist">
+                <img src="images/jeans.jpeg" alt="">
+                <p>Premium Jeans for Men</p>
+                <p>From 429Rs.</p>
+            </div>
+            <div class="productlist">
+                <img src="images/shirt.jpeg" alt="">
+                <p>Top Shirts for Men</p>
+                <p>Up to 50% Off</p>
+            </div>
+            <div class="productlist">
+                <img src="images/trauser.jpeg" alt="">
+                <p>Top Trousers</p>
+                <p>Up to 60% Off</p>
+            </div>
+            <div class="productlist">
+                <img src="images/jacket.jpeg" alt="">
+                <p>Top Jackets for Men</p>
+                <p>From 1000Rs.</p>
+            </div>
+           </div>
+       </div>
+
+       <!-- ----------------------------------- fifth ----------------------------------- -->
+
+       <div class="main-box">
+        <h2>Foot Wear Top Deals</h2>
+        <div class="product">
+            <div class="productlist">
+                <img src="images/shoes1.jpeg" alt="">
+                <p>Premium Sport Shoes</p>
+                <p>Up to 40% Off</p>
+            </div>
+            <div class="productlist">
+                <img src="images/clogs.jpeg" alt="">
+                <p>Top Best Clogs</p>
+                <p>Up to 60% Off</p>
+            </div>
+            <div class="productlist">
+                <img src="images/sandle.jpeg" alt="">
+                <p>Premium Sandles</p>
+                <p>Up to 40% Off</p>
+            </div>
+            <div class="productlist">
+                <img src="images/shoes2.jpeg" alt="">
+                <p>Top Best Sneekers</p>
+                <p>Up to 30% Off</p>
+            </div>
+            <div class="productlist">
+                <img src="images/sleepers.jpeg" alt="">
+                <p>Top Branded sleepers</p>
+                <p>Up to 75% Off</p>
+            </div>
+            <div class="productlist">
+                <img src="images/shoes3.jpeg" alt="">
+                <p>Top Leather Shoes</p>
+                <p>Up to 65% Off</p>
+            </div>
+           </div>
+       </div>
+
+       <!-- ----------------------------------------- Sixth Section ----------------------------------------- -->
+
+       <div class="main-box">
+        <h2>Top Deals on TVs & Appliances</h2>
+        <div class="product">
+            <div class="productlist">
+                <img src="images/ref1.jpeg" alt="">
+                <p>Marq Refrigrator</p>
+                <p>From 8,999Rs.</p>
+            </div>
+            <div class="productlist">
+                <img src="images/ref2.jpeg" alt="">
+                <p>Double Door Refrigrator</p>
+                <p>From 16,129Rs.</p>
+            </div>
+            <div class="productlist">
+                <img src="images/ref3.jpeg" alt="">
+                <p>Samsung Refrigrator</p>
+                <p>From 16,690Rs.</p>
+            </div>
+            <div class="productlist">
+                <img src="images/ref4.jpeg" alt="">
+                <p>Semi Automatic Washing Machine</p>
+                <p>Buy Now</p>
+            </div>
+            <div class="productlist">
+                <img src="images/ref5.jpeg" alt="">
+                <p>Godrej Refrigrator</p>
+                <p>From 7,499Rs.</p>
+            </div>
+            <div class="productlist">
+                <img src="images/ref6.jpeg" alt="">
+                <p>Big Size LED TVs</p>
+                <p>From 15,999Rs.</p>
+            </div>
+           </div>
+       </div>
+
+      <!-- ----------------------------------------- Footer ----------------------------------------- -->
+
+      <footer>
+        <div class="foot">
+            <div class="foot-item">
+                <p>ABOUT</p>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Flipkart Stories</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Flipkart Wholesale</a></li>
+                    <li><a href="#">Cleartrip</a></li>
+                    <li><a href="#">Corporate Information</a></li>
+                </ul>
+            </div>
+            <div class="foot-item">
+                <p>HELP</p>
+                <ul>
+                    <li><a href="#">Payment</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Cancellation & Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Report infringement</a></li>
+                </ul>
+            </div>
+            <div class="foot-item">
+                <p>CUSTOMER POLICY</p>
+                <ul>
+                    <li><a href="#">Cancellation & Returns</a></li>
+                    <li><a href="#">Term of use</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Grievance Redressal</a></li>
+                    <li><a href="#">EPR Compliance</a></li>
+                </ul>
+            </div>
+            <div class="foot-item">
+                <p>SOCIAL</p>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+            <div class="foot-item">
+                <p>Mail Us</p>
+                <p>Flipkart Internet Private Limited, Building Alyssa, Begonia & Clove Embassy Tech Village, Outer Ring Road, Devarabeesanahalli Village, Bengaluru, 560103, Karnataka, India</p>
+            </div>
+            <div class="foot-item">
+                <p>Registered Office Address</p>
+                <p>Flipkart Internet Private Limited, Building Alyssa, Begonia & Clove Embassy Tech Village, Outer Ring Road, Devarabeesanahalli Village, Bengaluru, 560103, Karnataka, India</p>
+                <p>CIN : U51109KA2012PTC066107</p>
+                <P>Telephone : <a href="#">044-45614700</a></P>
+            </div>
+        </div>
+        <hr>
+        <div class="foot-lower">
+            <a href="#"><i class="fa-solid fa-shop"></i> Become a Seller</a>
+            <a href="#"><i class="fa-brands fa-adversal"></i> Advertise</a>
+            <a href="#"><i class="fa-solid fa-gift"></i> Gift Cards</a>
+            <a href="#"><i class="fa-sharp fa-solid fa-question"></i> Help Center</a>
+            <a href="#"><i class="fa-regular fa-copyright"></i> 2007-2023 Flipkart.com</a>
+            <img src="images/visa.png" alt="">
+        </div>
+      </footer>
+
+      <script src="script.js"></script>
+</body>
+</html>
